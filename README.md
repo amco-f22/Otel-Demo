@@ -51,11 +51,11 @@ sudo docker compose up --force-recreate --remove-orphans --detach
 
 Note: Kafka and the full stack can be memory hungry. If services fail to become healthy, increase instance RAM (≥8GB recommended).
 
-Accessing the demo (replace <HOST> with EC2-IP or localhost)
-- Web Store: http://<HOST>:8080
-- Grafana: http://<HOST>:8080/grafana
-- Jaeger: http://<HOST>:8080/jaegerui
-- Load Generator UI: http://<HOST>:8080/loadgen
+Accessing the demo (replace with EC2-IP or localhost)
+- Web Store: http://localhost:8080
+- Grafana: http://localhost:8080/grafana
+- Jaeger: http://localhost:8080/jaegerui
+- Load Generator UI: http://locahost:8080/loadgen
 
 🕹️ How it works
 - Services emit telemetry (traces, metrics, logs) to the OTel Collector
